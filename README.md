@@ -47,3 +47,15 @@ scrapy crawl books
 ```
 - The spider will start scraping book details from Books to Scrape.
 - The data will be automatically saved to your MongoDB database in the books_db database and books_collection collection.
+
+## Additional Features
+
+### Error Handling and Logging
+- Implemented error handling to manage failed requests using Scrapy's built-in features.
+- Logging enabled to capture and report errors during scraping.
+
+### Pagination
+- The spider automatically paginates through multiple pages to scrape a larger dataset.
+
+### Data Visualization
+- Visualizations of the stored data can be created using libraries like `matplotlib` and `pandas`. Sample code is provided for visualizing the distribution of book prices.
